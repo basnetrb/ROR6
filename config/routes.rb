@@ -1,4 +1,7 @@
 ROR6::Application.routes.draw do
+  root :to => "pages#home"
+  get :to => "pages#glofish"
+
   # The priority is based upon order of creation:
   # first created -> highest priority.
 
